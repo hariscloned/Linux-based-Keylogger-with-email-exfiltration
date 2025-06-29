@@ -14,9 +14,9 @@ from email import encoders
 FOLDER_NAME = os.path.expanduser("~/Documents/.ncys2_project")
 KEY_FILE = os.path.join(FOLDER_NAME, "key.key")
 LOG_FILE = os.path.join(FOLDER_NAME, "NCYS2_log.txt")
-EMAIL_SENDER = "k224794@nu.edu.pk"
-EMAIL_PASSWORD = "stmn vvqr nnyi ocid"
-EMAIL_RECEIVER = "k224714@nu.edu.pk"
+EMAIL_SENDER = "sender@gmail.com"
+EMAIL_PASSWORD = "16 character app password of sender" 
+EMAIL_RECEIVER = "receiver@gmail.com"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 465
 AUTO_ENCRYPT_INTERVAL = 120  # 2 minutes
